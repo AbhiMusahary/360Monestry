@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Monastery Events & Festivals</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen">
+
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-br from-amber-600 via-orange-600 to-red-700 text-white overflow-hidden">
+    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=2025&q=80')] bg-cover bg-center opacity-20"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 text-center">
+      <div class="flex items-center justify-center space-x-2 mb-6">
+        <span class="text-amber-300 font-medium">✨ Sacred Celebrations ✨</span>
+      </div>
+      <h1 class="text-5xl md:text-7xl font-bold mb-8 leading-tight">
+        Monastery Events & <br />
+        <span class="bg-gradient-to-r from-amber-300 to-yellow-400 bg-clip-text text-transparent">
+          Festivals
+        </span>
+      </h1>
+      <p class="text-xl md:text-2xl text-orange-100 mb-12 leading-relaxed max-w-3xl mx-auto">
+        Join authentic spiritual celebrations, meditation retreats, and cultural festivals 
+        in Sikkim's most sacred monasteries.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-1">
+          <div class="bg-white/20 rounded-xl px-8 py-4 text-center">
+            <div class="text-3xl font-bold">12+</div>
+            <div class="text-sm text-orange-100">Sacred Events</div>
+          </div>
+        </div>
+        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-1">
+          <div class="bg-white/20 rounded-xl px-8 py-4 text-center">
+            <div class="text-3xl font-bold">5</div>
+            <div class="text-sm text-orange-100">Upcoming</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filter Section -->
+  <section class="py-12 bg-white/50 backdrop-blur-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
+        <!-- Search -->
+        <div class="relative flex-1 max-w-md">
+          <input
+            type="text"
+            placeholder="Search events, locations..."
+            class="pl-12 h-12 rounded-2xl border-0 bg-white shadow-sm focus:ring-2 focus:ring-amber-500 w-full"
+          />
+          <span class="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400">🔍</span>
+        </div>
+        <!-- Category Select -->
+        <select class="w-40 h-12 rounded-2xl border-0 bg-white shadow-sm">
+          <option>All Categories</option>
+          <option>Festival</option>
+          <option>Retreat</option>
+          <option>Workshop</option>
+        </select>
+        <!-- Difficulty Select -->
+        <select class="w-40 h-12 rounded-2xl border-0 bg-white shadow-sm">
+          <option>All Levels</option>
+          <option>Beginner</option>
+          <option>Intermediate</option>
+          <option>Advanced</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events Grid -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-800">Upcoming Sacred Events</h2>
+        <p class="text-xl text-slate-600 max-w-2xl mx-auto">
+          Experience the spiritual richness of Sikkim through authentic monastery events and festivals.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Event 1 -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow hover:shadow-2xl transition transform hover:-translate-y-2 flex flex-col">
+          <div class="relative">
+            <img src="https://source.unsplash.com/600x400/?temple,festival" alt="Event" class="w-full h-48 object-cover">
+            <div class="absolute top-4 left-4">
+              <span class="bg-orange-100 text-orange-800 border border-orange-200 text-sm px-3 py-1 rounded-full">Festival</span>
+            </div>
+            <div class="absolute top-4 right-4 bg-white/90 px-3 py-1 rounded-full text-sm font-bold text-slate-800">₹500</div>
+            <div class="absolute bottom-4 left-4 bg-green-50 text-green-700 px-3 py-1 rounded-full text-xs font-medium">BEGINNER</div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col">
+            <h3 class="text-xl font-bold text-slate-800 mb-2">Meditation Retreat</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4 flex-1">
+              A weekend retreat focusing on deep meditation practices guided by monks.
+            </p>
+            <div class="space-y-2 text-sm text-slate-500 mb-4">
+              <div>📅 Saturday, October 12, 2025</div>
+              <div>⏰ 9:00 AM - 5:00 PM</div>
+              <div>📍 Rumtek Monastery</div>
+              <div class="text-green-600">20 spots left</div>
+            </div>
+            <button class="w-full bg-gradient-to-r from-teal-600 to-emerald-600 text-white py-2 rounded-xl">
+              Book Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow hover:shadow-2xl transition transform hover:-translate-y-2 flex flex-col">
+          <div class="relative">
+            <img src="https://source.unsplash.com/600x400/?buddhism,ritual" alt="Event" class="w-full h-48 object-cover">
+            <div class="absolute top-4 left-4">
+              <span class="bg-pink-100 text-pink-800 border border-pink-200 text-sm px-3 py-1 rounded-full">Cultural</span>
+            </div>
+            <div class="absolute top-4 right-4 bg-white/90 px-3 py-1 rounded-full text-sm font-bold text-slate-800">₹800</div>
+            <div class="absolute bottom-4 left-4 bg-yellow-50 text-yellow-700 px-3 py-1 rounded-full text-xs font-medium">INTERMEDIATE</div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col">
+            <h3 class="text-xl font-bold text-slate-800 mb-2">Butter Lamp Ceremony</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4 flex-1">
+              An evening of prayer and offering of butter lamps for peace and prosperity.
+            </p>
+            <div class="space-y-2 text-sm text-slate-500 mb-4">
+              <div>📅 Tuesday, November 5, 2025</div>
+              <div>⏰ 6:00 PM - 8:00 PM</div>
+              <div>📍 Tashiding Monastery</div>
+              <div class="text-amber-600">5 spots left</div>
+            </div>
+            <button class="w-full bg-gradient-to-r from-teal-600 to-emerald-600 text-white py-2 rounded-xl">
+              Book Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow hover:shadow-2xl transition transform hover:-translate-y-2 flex flex-col">
+          <div class="relative">
+            <img src="https://source.unsplash.com/600x400/?monk,workshop" alt="Event" class="w-full h-48 object-cover">
+            <div class="absolute top-4 left-4">
+              <span class="bg-blue-100 text-blue-800 border border-blue-200 text-sm px-3 py-1 rounded-full">Workshop</span>
+            </div>
+            <div class="absolute top-4 right-4 bg-white/90 px-3 py-1 rounded-full text-sm font-bold text-slate-800">₹300</div>
+            <div class="absolute bottom-4 left-4 bg-red-50 text-red-700 px-3 py-1 rounded-full text-xs font-medium">ADVANCED</div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col">
+            <h3 class="text-xl font-bold text-slate-800 mb-2">Sacred Arts Workshop</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4 flex-1">
+              Learn the sacred art of thangka painting and mantra recitation with experienced teachers.
+            </p>
+            <div class="space-y-2 text-sm text-slate-500 mb-4">
+              <div>📅 Sunday, December 1, 2025</div>
+              <div>⏰ 10:00 AM - 4:00 PM</div>
+              <div>📍 Pemayangtse Monastery</div>
+              <div class="text-red-600">Fully Booked</div>
+            </div>
+            <button disabled class="w-full bg-slate-400 text-white py-2 rounded-xl cursor-not-allowed">
+              Fully Booked
+            </button>
+          </div>
+        </div>
+
+        <!-- Event 4 -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow hover:shadow-2xl transition transform hover:-translate-y-2 flex flex-col">
+          <div class="relative">
+            <img src="https://source.unsplash.com/600x400/?buddhism,ritual" alt="Event" class="w-full h-48 object-cover">
+            <div class="absolute top-4 left-4">
+              <span class="bg-pink-100 text-pink-800 border border-pink-200 text-sm px-3 py-1 rounded-full">Cultural</span>
+            </div>
+            <div class="absolute top-4 right-4 bg-white/90 px-3 py-1 rounded-full text-sm font-bold text-slate-800">₹800</div>
+            <div class="absolute bottom-4 left-4 bg-yellow-50 text-yellow-700 px-3 py-1 rounded-full text-xs font-medium">INTERMEDIATE</div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col">
+            <h3 class="text-xl font-bold text-slate-800 mb-2">Silent Meditation Retreat</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4 flex-1">
+              A transformative 3-day silent meditation retreat in the peaceful surroundings of Pemayangtse Monastery. Learn ancient Buddhist meditation techniques under the guidance of experienced lamas.
+            </p>
+            <div class="space-y-2 text-sm text-slate-500 mb-4">
+              <div>📅 Tuesday, December 5, 2025</div>
+              <div>⏰ 11:00 AM - 8:00 PM</div>
+              <div>📍 Pemayangtse Monastery</div>
+              <div class="text-amber-600">17 spots left</div>
+            </div>
+            <button class="w-full bg-gradient-to-r from-teal-600 to-emerald-600 text-white py-2 rounded-xl">
+              Book Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Event 5 -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow hover:shadow-2xl transition transform hover:-translate-y-2 flex flex-col">
+          <div class="relative">
+            <img src="https://source.unsplash.com/600x400/?buddhism,ritual" alt="Event" class="w-full h-48 object-cover">
+            <div class="absolute top-4 left-4">
+              <span class="bg-pink-100 text-pink-800 border border-pink-200 text-sm px-3 py-1 rounded-full">Cultural</span>
+            </div>
+            <div class="absolute top-4 right-4 bg-white/90 px-3 py-1 rounded-full text-sm font-bold text-slate-800">₹800</div>
+            <div class="absolute bottom-4 left-4 bg-yellow-50 text-yellow-700 px-3 py-1 rounded-full text-xs font-medium">INTERMEDIATE</div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col">
+            <h3 class="text-xl font-bold text-slate-800 mb-2">Thangka Painting Workshop</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4 flex-1">
+              Learn the sacred art of Thangka painting from master artists at Enchey Monastery. This intensive workshop covers traditional techniques, symbolism, and spiritual significance of Buddhist art.
+            </p>
+            <div class="space-y-2 text-sm text-slate-500 mb-4">
+              <div>📅 Tuesday, November 28, 2025</div>
+              <div>⏰ 8:00 AM - 6:00 PM</div>
+              <div>📍 Enchey Monastery</div>
+              <div class="text-amber-600">25 spots left</div>
+            </div>
+            <button class="w-full bg-gradient-to-r from-teal-600 to-emerald-600 text-white py-2 rounded-xl">
+              Book Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Event 6 -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow hover:shadow-2xl transition transform hover:-translate-y-2 flex flex-col">
+          <div class="relative">
+            <img src="https://source.unsplash.com/600x400/?buddhism,ritual" alt="Event" class="w-full h-48 object-cover">
+            <div class="absolute top-4 left-4">
+              <span class="bg-pink-100 text-pink-800 border border-pink-200 text-sm px-3 py-1 rounded-full">Cultural</span>
+            </div>
+            <div class="absolute top-4 right-4 bg-white/90 px-3 py-1 rounded-full text-sm font-bold text-slate-800">₹800</div>
+            <div class="absolute bottom-4 left-4 bg-yellow-50 text-yellow-700 px-3 py-1 rounded-full text-xs font-medium">INTERMEDIATE</div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col">
+            <h3 class="text-xl font-bold text-slate-800 mb-2">Losar Festival Celebration</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4 flex-1">
+              Join the grand Tibetan New Year celebration at Rumtek Monastery featuring traditional mask dances, ceremonial offerings, and community feast. Experience the vibrant colors and ancient rituals that mark the
+              <div>📅 Tuesday, November 5, 2025</div>
+              <div>⏰ 6:00 PM - 8:00 PM</div>
+              <div>📍 Rumtek Monastery</div>
+              <div class="text-amber-600">8 spots left</div>
+            </div>
+            <button class="w-full bg-gradient-to-r from-teal-600 to-emerald-600 text-white py-2 rounded-xl">
+              Book Now
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
